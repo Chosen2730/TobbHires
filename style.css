@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+/* NAVIDATION BAR */
+#Section1{
+    /* background-color: #88E0EF; */
+    /* padding: 2% 0; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+}
+#header img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.hor-line{
+     border-color: #88E0EF;
+     margin-top: .5%
+     
+}
+.nav-list{
+    display: flex;
+}
+.nav-left a{
+    text-decoration: none;
+    font-size: 1.85rem;
+    font-weight: bold;
+}
+.logo{
+    width: 35%;
+}
+.nav-item{
+list-style: none;
+padding: 4px;
+}
+.nav-item a{
+text-decoration: none;
+color: #000;
+font-size: 1.2rem;
+transition-property: all;
+transition-timing-function: ease-in-out;
+transition-duration: .5s;
+}
+.nav-item a:hover{
+    border-bottom: 2px solid #113CFC;
+}
+.nav-carrier{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-right{
+    margin-left: auto;
+}
+.navbar i{
+    display: none;
+}
+
+/* SECTION2 */
+.schedule{
+    margin-top: 8%;
+}
+.sch-button{
+    padding: .85% 1.2%;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #113CFC;
+    margin: 0 2% 2%;
+    border: 1px solid #113CFC;
+    transition: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+.sch-button:hover{
+    background-color: #001780;
+}
+.button2{
+    background-color: #fff;
+    color: #113CFC;
+}
+.button2:hover{
+    background-color: #EEEBDD;
+}
+.form-div{
+width: 95%;
+margin: 0 auto;
+background-color: #EDEDED;
+padding: 2%;
+border-radius: 10px;
+}
+.select-cars{
+    width: 30% !important;
+}
+form input, select{
+    padding: .9%;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+.schedules input, select{
+    margin: 0 2%;
+}
+.dates, .schedules{
+    display: flex;
+    margin: 15px 0;
+}
+.date-cont{
+    width: 100%;
+    margin: 0 2%;
+}
+.submit{
+    width: 10%;
+}
+.card-cont{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+.name-div{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.name-cont{
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    color: grey;
+}
+.name-cont i{
+    color: #113CFC;
+    font-size: 2.5rem;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial h3{
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+.testimonial span{
+    color: #6ECB63;
+}
+.new-div div{
+    padding: 0 10px;
+}
+.new-div div i{
+    background-color: #6ECB63;
+    color: #fff;
+    padding: 5px;
+    margin-top: 1%;
+}
+.name-cont p{
+    font-size: 1rem;
+}
+#destinations{
+    background-color: #EDEDED;
+    padding: 3% 0;
+}
+.dest-header{
+    text-align: center;
+}
+.img-div{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.img-cont{
+    margin: 2%;
+    text-align: center;
+}
+.img-cont h5{
+    font-size: 1.5rem;
+    color: #615f5f;
+    font-weight: normal;
+    margin: 1%;
+}
+.dest, .car{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    border-radius: 10px;
+    margin: 2%;
+}
+.image1{
+    background-image: url("images/lagos.jpg");
+} 
+.image2{
+    background-image: url("images/abuja.jpg");
+}
+.image3{
+    background-image: url("images/portarcourt.jpg");
+}
+.image4{
+    background-image: url("images/ibadan.jpg");
+}
+.image5{
+    background-image: url("images/calabar.jpg");
+}
+.image6{
+    background-image: url("images/kano.jpg");
+}
+.car1{
+    background-image: url("images/car1.png");
+}
+.car2{
+    background-image: url("images/car2.jpg");
+}
+.car3{
+    background-image: url("images/car3.jpg");
+}
+.car4{
+    background-image: url("images/car4.jpg");
+}
+.car5{
+    background-image: url("images/car5.jpg");
+}
+.car6{
+    background-image: url("images/car6.jpg");
+}
+.service-cont{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    color: grey;
+    font-size: 1.5rem;
+    margin: 10%;
+    
+}
+
+.our-services{
+    font-weight: normal;
+    font-size: 2rem;
+    color: #113CFC;
+}
+del{
+    text-decoration-style: double;
+}
+#cars{
+    background-color: #EDEDED;
+    padding: 4%;
+}
+#cars h5{
+    color: #fff;
+    font-size: 1rem;
+    background-color: #000;
+    padding: 6px;
+}
+#cars .dest-header{
+    text-transform: uppercase;
+    color: #113CFC;
+}
+#contact{
+    margin: 8%;
+}
+#contact h2{
+    color: #113CFC;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contact-main{
+    display: flex;
+   justify-content: center;
+}
+.contact-cont{
+    display: flex;
+    align-items: center;
+    border: 1px solid #113CFC;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.contact-div1 i{
+    padding: 12px;
+    background-color: #c6f8ff;
+    color: #113CFC;
+    border-radius: 100%;
+}
+.contact-div1{
+    margin: .95%;
+}
+.footer{
+    text-align: center;
+    background-color: #113CFC;
+    color: #fff;
+    padding: 2%;
+}
+.footer span{
+    color: #c6f8ff;
+}
+
+@media (max-width:768px){
+.navbar i{
+    color: #113CFC;
+    display: block;
+    font-size: 1.5rem;
+}
+.navbar{
+    margin-left: auto;
+}
+.nav-right{
+    display: none;
+}
+.nav{
+    display: block;
+    margin-right: auto;
+    text-align: right;
+    width: 95%;
+}
+.nav-list{
+    display: block;
+}
+.schedule{
+    margin-top: 14%;
+}
+.dest, .car{
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+}
+.name-cont{
+    font-size: 1rem;
+}
+.contact-cont{
+    display: block;
+    text-align: center;
+}
+.new-div div i{
+   font-size: .8rem;
+}
+}
+
+@media (max-width:600px){
+    .schedule{
+     padding: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-div{
+        padding: 4%;
+    }
+.dates, .schedules{
+    display: block;
+}
+form input, select{
+    margin: 4% 0;
+}
+.schedules input{
+    margin: 3%;
+}
+.submit{
+    width: 30%;
+}
+}
+
+@media (max-width:425px){
+    .card-cont, .name-div{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .name-div{
+        margin: 50px;
+    }
+    .name-div i{
+        font-size: 4rem;
+    }
+    .new-div{
+        margin: 0 0 50px;
+    }
+    .img-div{
+        display: block;
+    }
+    .dest, .car{
+    width: 350px;
+    height: 300px;
+    margin: 30px auto;
+}
+.service-cont{
+    margin: 100px auto;
+}
+.service-cont p{
+    font-size: .9rem;
+}
+#cars{
+    padding: 100px 0;
+}
+.contact-main{
+    display: block;
+}
+.contact-cont{
+    padding: 40px;
+}
+
+}
+@media (max-width:375px){
+    .dest, .car{
+        width: 250px;
+        height: 250px;
+        margin: 30px auto;
+    }
+}
