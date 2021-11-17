@@ -505,6 +505,7 @@ form input, select{
 }
 .login-cont{
     display: block;
+    width: 90%;
     text-align: center;
 }
 .user-img, .user-img2{
