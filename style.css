@@ -14,11 +14,6 @@
     top: 0;
     background-color: #fff;
 }
-#header img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
 .hor-line{
      border-color: #88E0EF;
      margin-top: .5%
@@ -62,7 +57,33 @@ transition-duration: .5s;
 .navbar i{
     display: none;
 }
+.login-link a{
+    color: #6ECB63;
+}
 
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.73)),
+    url('images/rent.jpg');
+}
+.header-cont{
+    justify-content: center;
+    padding: 17%;
+    text-align: center;
+}
+.header-cont h2{
+    font-size: 4rem;
+    color: #113CFC;
+}
+.header-cont p{
+    color: #1b1b1b;
+    font-size: 1.5rem;
+}
 /* SECTION2 */
 .schedule{
     margin-top: 8%;
@@ -301,6 +322,69 @@ del{
     color: #c6f8ff;
 }
 
+
+
+/* LOGIN PAGE */
+#login{
+    background: rgb(13,59,222);
+    background: linear-gradient(90deg, 
+    rgba(13,59,222,0.9864320728291317) 0%, rgba(0,159,214,1) 45%, rgba(2,20,41,1) 100%);
+}
+.login-cont{
+    background-color: #fff;
+    width: 70%;
+    margin: 10vh auto;
+    border-radius: 10px;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+.user{
+    margin:3%;
+}
+.input, .login-submit{
+    width: 100%;
+    border: none;
+    padding: 5%;
+    margin: 2% 0;
+    border-radius: 10px;
+
+}
+.input{
+    background-color: #EDEDED;
+}
+.login{
+    margin-left: auto;
+}
+.login-submit{
+    background-color:#6ECB63;
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+.login-submit:hover{
+    background-color:#fff
+    color: #fff;
+}
+.login h6{
+    font-weight: lighter;
+}
+.sign-in-link{
+    color: #6ECB63;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sign-in-cont{
+    width: 50%;
+    margin: 0 auto;
+}
+.sign-in{
+    text-align: center;
+}
+.return{
+    color: rgb(158, 158, 158);
+}
+
 @media (max-width:768px){
 .navbar i{
     color: #113CFC;
@@ -340,6 +424,9 @@ del{
 .new-div div i{
    font-size: .8rem;
 }
+.user-img, .user-img2{
+    width: 80%;
+}
 }
 
 @media (max-width:600px){
@@ -366,6 +453,19 @@ form input, select{
 }
 
 @media (max-width:425px){
+    .header-cont{
+        justify-content: center;
+        padding: 200px 2%;
+        text-align: center;
+    }
+    .header-cont h2{
+        font-size: 3rem;
+        color: #113CFC;
+    }
+    .header-cont p{
+        color: #3a3a3a;
+        font-size: 1rem;
+    }
     .card-cont, .name-div{
         display: block;
         justify-content: center;
@@ -402,6 +502,16 @@ form input, select{
 }
 .contact-cont{
     padding: 40px;
+}
+.login-cont{
+    display: block;
+    text-align: center;
+}
+.user-img, .user-img2{
+    width: 50%;
+}
+.sign-in-cont{
+    width: 85%;
 }
 
 }

@@ -1,4 +1,6 @@
 $(".select-cars").hide();
+$(".sign-in-cont").hide();
+
 $(".nav").hide();
 $("#clickme").click(function(){
     $(".select-cars").show();
@@ -24,4 +26,14 @@ $(".navbar").click(function () {
 })
 $(".nav-item").click(function(){
     $('.nav').slideUp();
+})
+$(".sign-click").click(function(){
+    $('.log-in').hide();
+    $(".user-img").hide();
+    $('.sign-in-cont').show();
+})
+$(".login-click").click(function(){
+    $('.log-in').show();
+    $(".user-img").show();
+    $('.sign-in-cont').hide();
 })
