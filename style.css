@@ -362,7 +362,7 @@ del{
     transition: all ease-in-out .2s;
 }
 .login-submit:hover{
-    background-color:#fff
+    background-color:#fff;
     color: #fff;
 }
 .login h6{
