@@ -122,7 +122,7 @@ border-radius: 10px;
     width: 30% !important;
 }
 form input, select{
-    padding: .9%;
+    padding: 1%;
     border-radius: 10px;
     width: 100%;
     border: none;
@@ -326,6 +326,7 @@ del{
 
 /* LOGIN PAGE */
 #login{
+    display: none;
     background: rgb(13,59,222);
     background: linear-gradient(90deg, 
     rgba(13,59,222,0.9864320728291317) 0%, rgba(0,159,214,1) 45%, rgba(2,20,41,1) 100%);
@@ -436,13 +437,22 @@ del{
         margin-right: auto;
     }
     .form-div{
-        padding: 4%;
+        padding: 10% 5%;
+        width: 100%;
     }
 .dates, .schedules{
     display: block;
 }
+.sch-button{
+    padding: 2% 4%;
+}
+.select-cars{
+    width: 100% !important;
+    display: none;
+}
 form input, select{
     margin: 4% 0;
+    padding: 4%;
 }
 .schedules input{
     margin: 3%;
@@ -502,6 +512,9 @@ form input, select{
 }
 .contact-cont{
     padding: 40px;
+}
+.footer p{
+    font-size: .85rem;
 }
 .login-cont{
     display: block;
