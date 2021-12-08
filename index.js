@@ -55,7 +55,7 @@ $('#orderForm').submit(function (e) {
             console.log(res)
             alert('Your order has been shechuled successfully')
             loading.style.display = 'none'
-            window.location = '/'
+            location.reload();
         },
         cache: false,
         contentType: false,
